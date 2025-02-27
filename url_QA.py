@@ -9,7 +9,7 @@ from langchain.docstore.document import Document # type: ignore
 import os
 
 # Set up Google Generative AI API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDbgrtzRODHuFIF9sTSgnU66R_6Tu9plv4"
+os.environ["GOOGLE_API_KEY"] = "Enter Your API Key"
 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=os.environ["GOOGLE_API_KEY"])
