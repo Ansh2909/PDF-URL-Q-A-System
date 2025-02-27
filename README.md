@@ -35,14 +35,14 @@ set GOOGLE_API_KEY='your-api-key'  # On Windows
 
 ### **1️⃣ Running Chat with PDF**
 ```bash
-streamlit run chat_with_pdf.py
+streamlit run pdf_QA.py
 ```
 - Upload PDFs from the sidebar.
 - Ask questions about the document.
 
 ### **2️⃣ Running Webpage Q&A**
 ```bash
-streamlit run webpage_qa.py
+streamlit run url_QA.py
 ```
 - Enter a URL to scrape and process content.
 - Ask questions related to the webpage.
